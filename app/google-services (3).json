@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "820018265638",
+    "project_id": "genotpem",
+    "storage_bucket": "genotpem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820018265638:android:b00a79e1f02b7a171130e7",
+        "android_client_info": {
+          "package_name": "com.example.myfinalproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJdcTa7BIFfRwTyIwcg4b7Gmf3xyEr5DI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

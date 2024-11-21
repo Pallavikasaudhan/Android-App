@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="305dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="53dp"
+        android:text="WELCOME TO APP"
+        android:textColor="#2E3A3A"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="408dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="165dp"
+        android:ems="10"
+        android:hint="Enter Your Email"
+        android:inputType="text"
+        android:textColorHint="#5E5C5C"
+        android:drawableStart="@drawable/baseline_email_24"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="401dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="248dp"
+        android:ems="10"
+        android:hint="Enter Your Password"
+        android:inputType="text"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:textColorHint="#7A7272" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginBottom="325dp"
+        android:background="#1395C8"
+        android:text="Login"
+        android:textColor="#FBF9F9"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginBottom="254dp"
+        android:background="#00BCD4"
+        android:text="New User?? Sign up"
+        android:textColor="#F4EBEB"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="176dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginBottom="196dp"
+        android:text="or sign up with"
+        android:textColorHint="#ACA3A3"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginBottom="123dp"
+        android:background="#00BCD4"
+        android:text="Sign up with Phone"
+        android:textColor="#FBF7F7"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="164dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button52"
+        android:layout_width="59dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="46dp"
+        android:text=">" />
+
+</RelativeLayout>
